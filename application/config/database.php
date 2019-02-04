@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => '',
-	'password' => '',
+	'hostname' => 'mydbinstance.chmkibeyn4g3.us-east-2.rds.amazonaws.com',
+	'username' => 'laurensondb',
+	'password' => 'Mynameis2!',
 	'database' => '',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
