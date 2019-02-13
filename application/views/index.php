@@ -1,19 +1,31 @@
 <div class="container">
+<div class="row h-100">
 	<div class="col">
-
+		<img src="<?php echo base_url() ?>images/ogo.webp" class="homeImg">
 	</div>
 	<div class="col">
-		<div class="container">
-			"Laying the framework for Britians housing developments"
-		</div>
-		<ul>
+		<ul id="homeList" style='height:100%'>
+			<a href="<?php echo base_url() ?>Developments/">
 			<li>Aile Developments</li>
-			<li>Discovery Aile</li>
+			</a>
+			<a href="<?php echo base_url() ?>Company/">
+			<li>Discover Aile</li>
+			</a>
 			<li>Contact US</li>
 		</ul>
 	</div>
-</div>
 
-<div class="container">
-	Social media
+	<div class="row h-100" style="display:none;">
+		<div class="col-lg-12 mx-auto">
+			<?php
+			foreach ($feed as $key => $value) {
+				echo "<div class='homeInstaFeed'>";
+				echo "<img src='" . $value[1]  . "' class='homeInstaFeedImg'>";
+				echo "</div>";
+			}
+			?>
+		</div>
+		
+	</div>
+
 </div>

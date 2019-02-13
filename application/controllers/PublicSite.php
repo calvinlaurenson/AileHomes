@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Developments extends CI_Controller {
+class PublicSite extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -24,46 +24,12 @@ class Developments extends CI_Controller {
         parent::__construct();
     }
    
+
 	public function index()
 	{
 		$data['feed'] = $this->getInstagramFeeds(3);
 		$this->load->view('include/header');
-		$this->load->view('include/menu');
-		$this->load->view('developments/index');
-		$this->load->view("include/contact_form_non_specific", $data);
-		$this->load->view('include/footer');
-		$this->load->view('include/bottom');
-	}
-
-	public function projects($project = null)
-	{
-		if(!file_exists(APPPATH . "views/developments/" . $project . ".php")) {
-			show_404();
-		}
-		$data['feed'] = $this->getInstagramFeeds(6);
-
-		$this->load->view('include/header');
-		$this->load->view('include/menu');
-		$this->load->view('developments/' . $project);
-		$this->load->view("include/contact_form_non_specific", $data);
-		$this->load->view('include/footer');
-		$this->load->view('include/bottom');
-	}
-
-	public function property($project = null, $property = null)
-	{
-		if(!file_exists(APPPATH . "views/developments/" . $project . ".php")) {
-			show_404();
-		}
-		$data['feed'] = $this->getInstagramFeeds(6);
-
-		$data['title'] = "hi";
-
-		$this->load->view('include/header');
-		$this->load->view('include/menu');
-		$this->load->view('developments/property', $data);
-		$this->load->view("include/contact_form", $data);
-		$this->load->view('include/footer');
+		$this->load->view('index', $data);
 		$this->load->view('include/bottom');
 	}
 
@@ -77,16 +43,14 @@ class Developments extends CI_Controller {
         curl_close( $connection_c ); // Close connection
         $insta = json_decode( $json_return ); // Decode and return
         foreach($insta->data as $feed){
-             /* Photo Type
+                /* Photo Type
                 * link - 0
                 * standard_resolution - 1
                 * likes - 2
                 * comments - 3
-                * caption - 4
-                * width - 5
-                * height - 6
+                * caption = 4
                 */
-            $items[] = array($feed->link, $feed->images->standard_resolution->url, $feed->likes->count, $feed->comments->count, $feed->caption->text, $feed->images->standard_resolution->width, $feed->images->standard_resolution->height);
+            $items[] = array($feed->link, $feed->images->standard_resolution->url, $feed->likes->count, $feed->comments->count, $feed->caption->text);
         }
         return $items;
     }

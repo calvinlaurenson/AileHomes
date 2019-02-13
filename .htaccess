@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+ReWriteEngine On
+ReWriteCond $l !^(index\.php|assets|images|js|styles|uploads|favicon.png)
+ReWriteCond %{REQUEST_FILENAME} !-f
+ReWritecond %{REQUEST_FILENAME} !-d
+ReWriteRule ^(.*)$ index.php/$l [L]
+</IfModule>
