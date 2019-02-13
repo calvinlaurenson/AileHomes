@@ -1,10 +1,10 @@
 </div>
-<section>
+<section style="background-color:#ffc14d;overflow:auto">
 	<div class="container">
 	<div class="row">
 		<div class="col">
-		<h2 class="text-white">Aile Homes Development's</h2>
-		<p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a pellentesque dui. Nulla suscipit porta libero in aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a pellentesque dui. Nulla suscipit porta libero in aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a pellentesque dui. Nulla suscipit porta libero in aliquam</p>
+		<h1 class="text-center">Aile Homes Development's</h1>
+		<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a pellentesque dui. Nulla suscipit porta libero in aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a pellentesque dui. Nulla suscipit porta libero in aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a pellentesque dui. Nulla suscipit porta libero in aliquam</p>
 		</div>
 	</div>
 </div>
@@ -16,8 +16,11 @@
 	<div class="row">
 
 		<div class="col-md-4">
+			<br/>
 				<div class="card">
-					<img src="<?php echo base_url() ?>images/ch.jpg" class="card-img-top">
+					<div style="height:250px">
+					<img src="<?php echo base_url() ?>images/ch.jpg" class="card-img-top" style="height:100%">
+					</div>
 					<div class="card-body">
 	    				<span class="card-text">
 							<h3>Charing Heath</h3>
@@ -29,5 +32,6 @@
 			</div>
 
 	</div>
+	<br/>
 </div>
 </section>

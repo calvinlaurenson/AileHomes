@@ -1,5 +1,6 @@
 </div>
 <footer>
+	<div class="container">
 	<div class="row">
 		<div class="col">
 			<div class="p-3">
@@ -19,11 +20,11 @@
 		<div class="col">
 			<div class="p-3">
 				<h3 class="text-white">About Us</h3>
-				<p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a pellentesque dui. Nulla suscipit porta libero in aliquam.</p>
 				<p class="text-white"><a class="text-white" href="<?php echo base_url() ?>Company/">About Aile Homes</a></p>
-				<p class="text-white"><a class="text-white" href="">Privacy Policy</a></p>
+				<p class="text-white"><a class="text-white" href="#">Privacy Policy</a></p>
 			</div>
 		</div>
 	</div>
+</div>
 	<p class="text-center text-white">&copy Aile Homes Ltd 2019</p>
 </footer>

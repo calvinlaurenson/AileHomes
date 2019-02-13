@@ -1,11 +1,9 @@
 </div>
-<section class="sitePlan">
-	<div class="row">
-		<div class="col">
-			<p class="text-center small"><a href="<?php echo base_url() ?>Developments">Developments</a> >> <a href="<?php echo base_url() ?>Developments/projects/charing_heath">Charing Heath</a> >> Forge Barn</p>
+<section style="background-color:#ffc14d;overflow:auto">
+
+			<p class="text-center small"><a href="<?php echo base_url() ?>Developments" style="color: inherit;">Developments</a> / <a href="<?php echo base_url() ?>Developments/projects/charing_heath" style="color: inherit;">Charing Heath</a> /  Forge Barn</p>
 			<h1 class="text-center">Forge Barn at Charing Heath</h1>
-		</div>
-	</div>
+
 </section>
 
 <section class="sitePlan">
@@ -36,7 +34,7 @@
 		</div>
 </section>
 
-<section style="background-color:#262626">
+<section style="background-color:#1a1a1a">
 	<div class="row">
 		<div class="col">
 			<h2 class="text-center text-white">The Plan</h2>

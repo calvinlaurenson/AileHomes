@@ -6,12 +6,14 @@
 	<div class="col">
 		<ul id="homeList" style='height:100%'>
 			<a href="<?php echo base_url() ?>Developments/">
-			<li>Aile Developments</li>
+				<li>Aile Developments</li>
 			</a>
 			<a href="<?php echo base_url() ?>Company/">
-			<li>Discover Aile</li>
+				<li>Discover Aile</li>
 			</a>
-			<li>Contact US</li>
+			<a href="<?php echo base_url() ?>Company/contact">
+				<li>Contact Us</li>
+			</a>
 		</ul>
 	</div>
 

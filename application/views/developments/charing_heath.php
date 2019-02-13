@@ -6,8 +6,10 @@
 	<div class="container">
 		<div class="row">
 			<div class="col">
-				<h3 class="text-center text-white">Charing Heath</h3>
+				<br/>
+				<h1 class="text-center text-white">Charing Heath</h1>
 				<p class="text-center text-white">Set within the beautiful British countryside of Charing Heath, an exclusive collection of Four Detached Family Homes.</p>
+				<br/>
 			</div>
 		</div>
 		</div>	
@@ -33,20 +35,47 @@
 		<br/>
 		<div class="row">
 			<div class="col">
-					<p class="text-center text-white"><i class="fas fa-car-side"></i> 6 minutes  to Charing</p>
-					<p class="text-center text-white"><i class="fas fa-car-side"></i> 90 minutes to London <i>(Via M2)</i></p>
-					<p class="text-center text-white"><i class="fas fa-train"></i> 90 minutes to London <i>(Ashford to St Pancras or Charing to Victoria)</i></p>
-					<p class="text-center text-white"><i class="fas fa-train"></i> Under 2 hours to Paris, France <i>(From Ashford via Eurostar)</i></p>
-					<p class="text-center text-white"><i class="fas fa-plane"></i> 1 hour to Gatwick Airport</p>
-					<p class="text-center text-white"><i class="fas fa-graduation-cap"></i> Heath Farm School - 200 metres <i>(5+ schools within 5km)</i></p>
+					<p class="text-white"><i class="fas fa-car-side"></i> 6 minutes  to Charing</p>
+					<p class="text-white"><i class="fas fa-car-side"></i> 90 minutes to London <i>(Via M2)</i></p>
+					<p class="text-white"><i class="fas fa-train"></i> 90 minutes to London <i>(Ashford to St Pancras or Charing to Victoria)</i></p>
+					<p class="text-white"><i class="fas fa-train"></i> Under 2 hours to Paris, France <i>(From Ashford via Eurostar)</i></p>
+					<p class="text-white"><i class="fas fa-plane"></i> 1 hour to Gatwick Airport</p>
+					<p class="text-white"><i class="fas fa-graduation-cap"></i> Heath Farm School - 200 metres <i>(5+ schools within 5km)</i></p>
 				</div>
 				<div class="col">
-					<br/><br/><br/>
-					<p class="text-center text-white">Charing Heath is an exclusive country development in the beautiful British county of Kent.</p>
-					<p class="text-center text-white">Live in one of four detached family homes in a gated community with direct links to London and plenty of schools near by.</p>
+					<br/><br/>
+					<p class="text-right text-white">Charing Heath is an exclusive country development in the beautiful British county of Kent.</p>
+					<p class="text-right text-white">Live in one of four detached family homes in a gated community with direct links to London and plenty of schools near by.</p>
 				</div>
 			</div>
+			<br/>
 		</div>
+	</div>
+</section>
+
+<section style="background-color:#ffc14d;overflow:auto">
+	<div class="container">
+		<br/>
+		<div class="row">
+			<div class="col">
+				<h2 class="text-center">Get Updates</h2>
+				<p class="text-center">Get updates on our Charing Heath Development straight to your email</p>
+			</div>
+		</div>
+		<form>
+			<div class="row">
+				<div class="col-lg-4">
+					<input type="text" placeholder="Your Name" class="form-control">
+				</div>
+				<div class="col-lg-4">
+					<input type="email" placeholder="Email Address" class="form-control">
+				</div>
+				<div class="col-lg-4">
+					 <button class="form-control btn-dark">Submit</button>
+				</div>
+			</div>
+		</form>
+		<br/>
 	</div>
 </section>
 

@@ -1,4 +1,4 @@
-<section class="enquire_div">
+<section class="enquire_div" style="background-color:#1a1a1a">
   	<div class="container">
 		<div class="row">
 			<div class="col" style="margin-top:120px">
