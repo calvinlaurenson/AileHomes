@@ -8,17 +8,16 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link text-white" href="<?php echo base_url() ?>Company/">About us</a>
-      </li>
-      <li class="nav-item">
         <a class="nav-link text-white" href="<?php echo base_url() ?>/developments">Developments</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-white" href="<?php echo base_url() ?>Company/contact">Contact Us</a>
+        <a class="nav-link text-white" href="<?php echo base_url() ?>land">Land Enquires</a>
       </li>
-
-      <li class="nav-item active">
-        <a class="nav-link" href="<?php echo base_url() ?>/Company/contact" style="background-color:#ffb833;padding:10px 5px;color:#000">Enquire Now</a>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="<?php echo base_url() ?>Company/">Discover Aile</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="<?php echo base_url() ?>Company/contact">Contact Us</a>
       </li>
     </ul>
   </div>

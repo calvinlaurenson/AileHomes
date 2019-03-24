@@ -1,8 +1,9 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	background-color: #000;
+	background-color: #020202;
 	font-size: 100%;
+	color: #f4f4f4 !important;
 }
 
 section {
@@ -49,6 +50,11 @@ h4 {
 
 p {
 	font-family: 'Lato', sans-serif;
+	letter-spacing: 1px;
+	font-size: 1em;
+}
+.smallTxt {
+	font-size: 0.7em;
 }
 
 #index_about {
@@ -72,7 +78,7 @@ p {
 
 .di_image_div {
 	width: 100%;
-	max-height: 500px;
+	max-height: 1000px;
 	overflow: hidden;
 }
 
@@ -82,7 +88,7 @@ p {
   position:relative;
   left:0;
   right:0;
-  bottom:50%;
+  bottom:100%;
   margin:auto;
 }
 
@@ -242,26 +248,31 @@ p {
 }
 
 .homeImg {
-	margin-top: 45%;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  max-width: 400px;
+  margin-bottom: 40px;
+  margin-top: 120px;
 }
 
 #homeList {
 	list-style-type: none;
 	width: 100%;
-	max-width: 400px;
-	margin: 0 auto;
-	margin-top: 50%;
+	text-align: center;
 }
 
 #homeList li {
 	text-align: center;
-	padding: 10px 5px;
-	margin: 13% auto;
+	padding: 10px 15px;
 	border: 2px solid #F7B554;
 	cursor: pointer;
 	text-transform: uppercase;
 	font-size: 1.2em;
 	font-family: 'Lato', sans-serif;
+	display: inline-block;
+	margin-left: 20px;
 }
 
 #homeList li:hover {
@@ -322,10 +333,24 @@ p {
 }
 
 .sitePlan {
-	background-color: #fff;
+	/*background-color: #fff;*/
 }
 
 
 .sitePlan img {
-	max-height: 400px;
+	max-height: 500px;
+}
+
+.floorMenu {
+	list-style-type: none;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+.floorMenu li {
+	padding: 10px;
+	display: inline-block;
+	text-align: center;
+	margin: auto;
 }

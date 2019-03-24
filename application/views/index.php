@@ -1,12 +1,17 @@
 <div class="container">
-<div class="row h-100">
+<div class="row">
 	<div class="col">
 		<img src="<?php echo base_url() ?>images/ogo.webp" class="homeImg">
 	</div>
+</div>
+<div class="row">
 	<div class="col">
 		<ul id="homeList" style='height:100%'>
 			<a href="<?php echo base_url() ?>Developments/">
 				<li>Aile Developments</li>
+			</a>
+			<a href="<?php echo base_url() ?>Land/">
+				<li>Aile Land</li>
 			</a>
 			<a href="<?php echo base_url() ?>Company/">
 				<li>Discover Aile</li>
