@@ -3,7 +3,11 @@ html, body {
 	padding: 0;
 	background-color: #020202;
 	font-size: 100%;
+
 	color: #f4f4f4 !important;
+
+	height: 100%;
+
 }
 
 section {
@@ -56,6 +60,19 @@ p {
 .smallTxt {
 	font-size: 0.7em;
 }
+
+.bg {
+  /* The image used */
+
+  /* Full height */
+  height: 95%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 #index_about {
 
@@ -248,13 +265,12 @@ p {
 }
 
 .homeImg {
- display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-  max-width: 400px;
-  margin-bottom: 40px;
-  margin-top: 120px;
+
+
+	position: absolute;
+	top: 30%;
+	left: 40%;
+
 }
 
 #homeList {

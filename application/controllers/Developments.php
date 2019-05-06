@@ -26,11 +26,11 @@ class Developments extends CI_Controller {
    
 	public function index()
 	{
-		$data['feed'] = $this->getInstagramFeeds(3);
+		//$data['feed'] = $this->getInstagramFeeds(3);
 		$this->load->view('include/header');
 		$this->load->view('include/menu');
 		$this->load->view('developments/index');
-		$this->load->view("include/contact_form_non_specific", $data);
+		//$this->load->view("include/contact_form_non_specific", $data);
 		$this->load->view('include/footer');
 		$this->load->view('include/bottom');
 	}
@@ -40,12 +40,12 @@ class Developments extends CI_Controller {
 		if(!file_exists(APPPATH . "views/developments/" . $project . ".php")) {
 			show_404();
 		}
-		$data['feed'] = $this->getInstagramFeeds(6);
+		//$data['feed'] = $this->getInstagramFeeds(6);
 
 		$this->load->view('include/header');
 		$this->load->view('include/menu');
 		$this->load->view('developments/' . $project);
-		$this->load->view("include/contact_form_non_specific", $data);
+		//$this->load->view("include/contact_form_non_specific", $data);
 		$this->load->view('include/footer');
 		$this->load->view('include/bottom');
 	}

@@ -27,9 +27,9 @@ class PublicSite extends CI_Controller {
 
 	public function index()
 	{
-		$data['feed'] = $this->getInstagramFeeds(3);
+		//$data['feed'] = $this->getInstagramFeeds(3);
 		$this->load->view('include/header');
-		$this->load->view('index', $data);
+		$this->load->view('index');
 		$this->load->view('include/bottom');
 	}
 
