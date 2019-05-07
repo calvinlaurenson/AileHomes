@@ -1,15 +1,15 @@
 </div>
 <section >
 
-			<p class="text-center small"><a href="<?php echo base_url() ?>Developments" style="color: inherit;">Developments</a> / <a href="<?php echo base_url() ?>Developments/projects/charing_heath" style="color: inherit;">Charing Heath</a> /  Forge Barn</p>
-			<h1 class="text-center">Forge Barn at Charing Heath</h1>
+			<p class="text-center small text-white"><a href="<?php echo base_url() ?>Developments" style="color: inherit;">Developments</a> / <a href="<?php echo base_url() ?>Developments/projects/charing_heath" style="color: inherit;">Charing Heath</a> /  Forge Barn</p>
+			<h1 class="text-center text-white">Forge Barn at Charing Heath</h1>
 
 </section>
 
-<section class="sitePlan">
-	<div class="row" style="margin-top:20px">
+<section class="sitePlan" style="background-color:#000">
+	<div class="row" style="margin-top:20px; background-color:#000">
 		<div class="col mx-auto">
-			<img src="<?php echo base_url() ?>images/charing_heath/external/p1_men_2.png" class="mx-auto d-block">
+			<img src="<?php echo base_url() ?>images/charing_heath/external/p1_Men_2.png" class="mx-auto d-block">
 
 		</div>
 	</div>
@@ -44,10 +44,11 @@
 		
 
 		<div class="col">
-			<span style="">
-			<h2 class="text-center">Site</h2>
-			<p class="text-center text-white">This two story home has open plan living on the ground floor with a seperate formal lounge.<br/>Upstairs, the master bedroom has an ensuite, his & hers closets and dressing area. Bedroom three also has its own ensuite and built in wardrobe.</p>
-			<br/>
+			<div style="padding: 20px">
+			<h2 class="text-center text-white" style="margin-top:150px">Site</h2>
+			<p class="text-center text-white">This two story home has open plan living on the ground floor with a seperate formal lounge.</p>
+			<p class="text-center text-white">Upstairs, the master bedroom has an ensuite, his & hers closets and dressing area. Bedroom three also has its own ensuite and built in wardrobe.</p>
+			</span>
 		</div>
 	</div>
 	
@@ -57,7 +58,7 @@
 <section>
 	<div class="row">
 		<div class="col">
-		<h2 class="text-center">Plans</h2>
+		<h2 class="text-center text-white">Plans</h2>
 	</div>
 </div>
 	<div class="row">
@@ -65,7 +66,7 @@
 		<div class="tab-content">
 			<div id="menu1" class="tab-pane fade in active">
 				<div class="col">
-					<p>fghfghfg</p>
+					<p class="text-white text-right">Ground Floor</p>
 				</div>
 				<div class="col">
 				</div>
@@ -73,7 +74,7 @@
 
 			<div id="menu2" class="tab-pane fade in">
 				<div class="col">
-					<p>fghfghfg</p>
+					<p class="text-white text-right">First Floor</p>
 				</div>
 				<div class="col">
 				</div>
@@ -87,11 +88,11 @@
 			<div style="width:50%;margin:auto">
 				<ul class="floorMenu nav nav-tabs">
 					<li class="active">
-						<span><a data-toggle="tab" href="#menu1">Ground Floor</a></span>
+						<span style="padding:20px"><a data-toggle="tab" href="#menu1">Ground Floor</a></span>
 					</li>
 					<li>|</li>
 					<li>
-						<span><a data-toggle="tab" href="#menu2">First Floor</a></span>
+						<span style="padding:20px"><a data-toggle="tab" href="#menu2">First Floor</a></span>
 					</li>
 				</ul>
 				<br/>
@@ -117,22 +118,22 @@
 	<div class="row">
 		<div class="col">
 			<img src="<?php echo base_url() ?>images/fb1.jpg" class="mx-auto d-block"/>
-			<h3 class="text-center">North</h3>
+			<h4 class="text-center text-white">North</h4>
 		</div>
 		<div class="col">
 			<img src="<?php echo base_url() ?>images/barn_rear.jpg" class="mx-auto d-block"/>
-			<h3 class="text-center">South</h3>
+			<h4 class="text-center text-white">South</h4>
 		</div>
 	</div>
 
 	<div class="row">
 		<div class="col">
 			<img src="<?php echo base_url() ?>images/barn_side.jpg" class="mx-auto d-block"/>
-			<h3 class="text-center">East</h3>
+			<h4 class="text-center text-white">East</h4>
 		</div>
 		<div class="col">
 			<img src="<?php echo base_url() ?>images/barn_side_2.jpg" class="mx-auto d-block"/>
-			<h3 class="text-center">West</h3>
+			<h4 class="text-center text-white">West</h4>
 		</div>
 	</div>
 

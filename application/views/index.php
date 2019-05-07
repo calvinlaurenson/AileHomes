@@ -51,7 +51,7 @@ font-family: 'Open Sans', sans-serif;
 		<h4 class="text-white" style='letter-spacing:2px'>AILE DEVELOPMENTS</h4>
 		<p class='text-white text-c'>Aile's first development at Charing Cross, is pushing forward at pace with the first houses going on the market in late 2019. We're already planning Development 2, scheduled for early release mid 2020</p>
 
-		<p><a href="<?php base_url() ?>Delevelopments" class="btn">View Our Latest Developments</a></p>
+		<p><a href="<?php base_url() ?>Developments" class="btn">View Our Latest Developments</a></p>
 	</div></div>
 	</div>
 </div>

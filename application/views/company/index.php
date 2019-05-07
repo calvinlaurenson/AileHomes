@@ -1,16 +1,16 @@
 </div>
-<section style="background-color:#ffc14d;overflow:auto">
+<section style="overflow:auto; border-bottom:2px solid gold; padding:10px 0">
 	<div class="container">
 		<div class="row">
 			<div class="col">
 				<br/>
-			<h1>About Aile Homes</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a pellentesque dui. Nulla suscipit porta libero in aliquam.</p>
+			<h1 class="text-white">About Aile Homes</h1>
+			<p  class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a pellentesque dui. Nulla suscipit porta libero in aliquam.</p>
 		</div>
 	</div>
 </section>
 
-<section>
+<section style="border-bottom:2px solid gold; padding:10px 0">
 	<div class="container">
 		<div class="row">
 			<div class="col">
@@ -23,13 +23,13 @@
 	</div>
 </section>
 
-<section style="background-color:#fff">
+<section style="background-color:#000">
 	<div class="container">
 		<div class="row">
 			<div class="col">
 			<br/><br/>
-			<h2>Behind The Scenes</h2>
-			<p>Follow us on Instagam - <a href="https://instagram.com/ailehomes" target="_blank">@AileHomes</a> and Facebook - <a href="https://facebook.com/ailehomes" target="_blank">/AileHomes</a> for more Behind the scenes content and see how our developments come together
+			<h2 class="text-white">Behind The Scenes</h2>
+			<p class="text-white">Follow us on Instagam - <a href="https://instagram.com/ailehomes" target="_blank">@AileHomes</a> and Facebook - <a href="https://facebook.com/ailehomes" target="_blank">/AileHomes</a> for more Behind the scenes content and see how our developments come together
 		</div>
 		<div class="row">
 			<?php

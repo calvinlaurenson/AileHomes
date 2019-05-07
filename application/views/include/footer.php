@@ -20,7 +20,7 @@
 		<div class="col">
 			<div class="p-3">
 				<h3 class="text-white">About Us</h3>
-				<p class="text-white"><a class="text-white" href="<?php echo base_url() ?>Company/">About Aile Homes</a></p>
+				<p class="text-white"><a class="text-white" href="<?php echo base_url() ?>Company/">Discover Aile Homes</a></p>
 				<p class="text-white"><a class="text-white" href="#">Privacy Policy</a></p>
 			</div>
 		</div>

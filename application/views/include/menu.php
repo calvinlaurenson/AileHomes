@@ -1,4 +1,4 @@
-<div style='display:none'>
+<div>
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000;">
 	<a class="navbar-brand" href="<?php echo base_url() ?>">
   		<img src="<?php echo base_url() ?>images/small_logo.webp" id="menuLogo">
