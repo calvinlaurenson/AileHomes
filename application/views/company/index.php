@@ -4,8 +4,9 @@
 		<div class="row">
 			<div class="col">
 				<br/>
-			<h1 class="text-white">About Aile Homes</h1>
-			<p  class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a pellentesque dui. Nulla suscipit porta libero in aliquam.</p>
+			<h1 class="text-center text-white">About Aile Homes</h1>
+			<p class="text-white text-center">Antony Iren and Luke Phillimore-Kelly, the Managing Directors are proud to offer high quality family homes built in extremely desirable locations within the Garden of England.</p>
+			<p class="text-center text-white">The company is dedicated to combining all the best in local architectural history with the very latest in modern amenities. The AILE product typically has a traditional exterior design with an impressive high level specification and meticulous attention to every detail.</p>
 		</div>
 	</div>
 </section>
@@ -15,9 +16,10 @@
 		<div class="row">
 			<div class="col">
 				<br/>
-				<h2 class="text-white">The Journey</h2>
-				<p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a pellentesque dui. Nulla suscipit porta libero in aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a pellentesque dui. Nulla suscipit porta libero in aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a pellentesque dui. Nulla suscipit porta libero in aliquam</p>
-				<p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a pellentesque dui. Nulla suscipit porta libero in aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a pellentesque dui. Nulla suscipit porta libero in aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a pellentesque dui. Nulla suscipit porta libero in aliquam</p>
+				<h2 class="text-white text-center">The Journey</h2>
+				<p class="text-white text-center">Aile Homes started life as a dream between the founders Antony Iren and Luke Phillimore-Kelly.</p>
+				<p class="text-white text-center">After finding the perfect parcel of land within commuting distance of London, Aile set about developing their first four properties.</p>
+				<p class="text-white text-center">With Charing Cross due to be complete in late 2019, Aile are looking forward to the next development announcing in 2020.</p>
 				<br/>
 		</div>
 	</div>

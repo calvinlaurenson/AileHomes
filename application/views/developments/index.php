@@ -4,7 +4,7 @@
 	<div class="row">
 		<div class="col">
 		<h1 class="text-center text-white">Aile Homes Development's</h1>
-		<p class="text-center text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a pellentesque dui. Nulla suscipit porta libero in aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a pellentesque dui. Nulla suscipit porta libero in aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a pellentesque dui. Nulla suscipit porta libero in aliquam</p>
+		<p class="text-center text-white">Aile Developments specialises turning empty land into executive properties. Our feature development is a gated 4 cottage community in the leafy London country side</p>
 		</div>
 	</div>
 </div>

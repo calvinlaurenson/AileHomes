@@ -63,20 +63,26 @@
 </div>
 	<div class="row">
 
-		<div class="tab-content">
-			<div id="menu1" class="tab-pane fade in active">
-				<div class="col">
-					<p class="text-white text-right">Ground Floor</p>
+		<div class="tab-content" style="width:100%">
+			<div id="menu1" class="tab-pane fade in active" style="width:100%">
+				<div class="col-12">
+					<p class="text-white text-center">Ground Floor</p>
 				</div>
-				<div class="col">
+				<div class="col-12">
+					<div style="width:80%;max-width:1200px;margin:auto;">
+						<img src="<?php echo base_url() ?>images/charing_heath/external/p2_men_1.jpg" style="width:100%;">
+					</div>
 				</div>
 			</div>
 
-			<div id="menu2" class="tab-pane fade in">
-				<div class="col">
-					<p class="text-white text-right">First Floor</p>
+			<div id="menu2" class="tab-pane fade in" style="width:100%">
+				<div class="col-12">
+					<p class="text-white text-center">First Floor</p>
 				</div>
-				<div class="col">
+				<div class="col-12">
+					<div style="width:80%;max-width:1200px;margin:auto;">
+						<img src="<?php echo base_url() ?>images/charing_heath/external/p2_men_1.jpg" style="width:100%">
+					</div>
 				</div>
 			</div>
 		</div>

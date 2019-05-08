@@ -3,7 +3,7 @@
 <?php
 if($feed != null) {
 ?>
-<section style="background-color:#fff">
+<section>
 <div class="row">
 
 	<?php

@@ -48,32 +48,6 @@
 	</div>
 </section>
 
-<section style="background-color:#ffc14d;overflow:auto">
-	<div class="container">
-		<br/>
-		<div class="row">
-			<div class="col">
-				<h2 class="text-center">Get Updates</h2>
-				<p class="text-center">Get updates on our Charing Heath Development straight to your email</p>
-			</div>
-		</div>
-		<form>
-			<div class="row">
-				<div class="col-lg-4">
-					<input type="text" placeholder="Your Name" class="form-control">
-				</div>
-				<div class="col-lg-4">
-					<input type="email" placeholder="Email Address" class="form-control">
-				</div>
-				<div class="col-lg-4">
-					 <button class="form-control btn-dark">Submit</button>
-				</div>
-			</div>
-		</form>
-		<br/>
-	</div>
-</section>
-
 <section>
 	<div class="container">
 		<br/>

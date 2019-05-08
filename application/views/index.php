@@ -27,7 +27,6 @@ font-family: 'Open Sans', sans-serif;
 }
 </style>
 
-<?php include("include/menu.php") ?>
 <div class="bg">
 	<img src="<?php echo base_url() ?>images/ogo.webp" class="homeImg">
 </div>
