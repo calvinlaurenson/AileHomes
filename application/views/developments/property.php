@@ -53,93 +53,55 @@
 	</div>
 	
 	<br/>
+	<br/>
+	<div class="hr"></div>
 </section>
 
 <section>
 	<div class="row">
 		<div class="col">
 		<h2 class="text-center text-white">Plans</h2>
+		<br/>
 	</div>
 </div>
 	<div class="row">
-
-		<div class="tab-content" style="width:100%">
-			<div id="menu1" class="tab-pane fade in active" style="width:100%">
-				<div class="col-12">
-					<p class="text-white text-center">Ground Floor</p>
-				</div>
-				<div class="col-12">
-					<div style="width:80%;max-width:1200px;margin:auto;">
-						<img src="<?php echo base_url() ?>images/charing_heath/external/p2_men_1.jpg" style="width:100%;">
-					</div>
-				</div>
-			</div>
-
-			<div id="menu2" class="tab-pane fade in" style="width:100%">
-				<div class="col-12">
-					<p class="text-white text-center">First Floor</p>
-				</div>
-				<div class="col-12">
-					<div style="width:80%;max-width:1200px;margin:auto;">
-						<img src="<?php echo base_url() ?>images/charing_heath/external/p2_men_1.jpg" style="width:100%">
-					</div>
-				</div>
-			</div>
-		</div>
-
-	</div>
-
-	<div class="row">
-		<div class="col">
-			<div style="width:50%;margin:auto">
-				<ul class="floorMenu nav nav-tabs">
-					<li class="active">
-						<span style="padding:20px"><a data-toggle="tab" href="#menu1">Ground Floor</a></span>
-					</li>
-					<li>|</li>
-					<li>
-						<span style="padding:20px"><a data-toggle="tab" href="#menu2">First Floor</a></span>
-					</li>
-				</ul>
-				<br/>
-
-			</div>
+		<div class="col-lg-12">
+			<img src="<?php echo base_url() ?>images/charing_heath/plot_1_plan.jpg" style="width:60%;margin-left:20%">
 		</div>
 	</div>
+	<br/>
+	<br/>
+	<div class="hr"></div>
 </section>
 
 
-	<div style="width:90%; margin:auto;">
-		<hr/>
-	</div>
-
 <section>
 	<div class="row">
-		<div class="col">
-			<h2 class="text-center text-white">The Elevations</h2>
-			<p class="text-center text-white">Facing West, you'll enjoy afternoon sun and a large backyard, perfect for entertaining on summer evenings.</p>
+		<div class="col-lg-12">
+			<h2 class="text-center text-white">Views</h2>
+			<p class="text-center text-white">Computer Generated Imagery of what the property is expected to look like.</p>
 			<br/>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col">
-			<img src="<?php echo base_url() ?>images/fb1.jpg" class="mx-auto d-block"/>
-			<h4 class="text-center text-white">North</h4>
+		<div class="col-lg-6">
+			<img src="<?php echo base_url() ?>images/charing_heath/cgi_1.jpg" class="mx-auto d-block" style="width:100%"/>
+			<h4 class="text-center text-white">Kitchen</h4>
 		</div>
-		<div class="col">
-			<img src="<?php echo base_url() ?>images/barn_rear.jpg" class="mx-auto d-block"/>
-			<h4 class="text-center text-white">South</h4>
+		<div class="col-lg-6">
+			<img src="<?php echo base_url() ?>images/charing_heath/cgi_2.jpg" class="mx-auto d-block" style="width:100%"/>
+			<h4 class="text-center text-white">Door</h4>
 		</div>
 	</div>
 
 	<div class="row">
-		<div class="col">
-			<img src="<?php echo base_url() ?>images/barn_side.jpg" class="mx-auto d-block"/>
-			<h4 class="text-center text-white">East</h4>
+		<div class="col-lg-6">
+			<img src="<?php echo base_url() ?>images/charing_heath/cgi_3.jpg" class="mx-auto d-block" style="width:100%"/>
+			<h4 class="text-center text-white">Laundry</h4>
 		</div>
-		<div class="col">
-			<img src="<?php echo base_url() ?>images/barn_side_2.jpg" class="mx-auto d-block"/>
-			<h4 class="text-center text-white">West</h4>
+		<div class="col-lg-6">
+			<img src="<?php echo base_url() ?>images/charing_heath/cgi_4.jpg" class="mx-auto d-block" style="width:100%"/>
+			<h4 class="text-center text-white">Kitchen</h4>
 		</div>
 	</div>
 

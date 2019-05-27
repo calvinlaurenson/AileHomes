@@ -1,5 +1,5 @@
 </div>
-<section style="overflow:auto; border-bottom:2px solid gold; padding:10px 0">
+<section>
 	<div class="container">
 		<div class="row">
 			<div class="col">
@@ -9,9 +9,14 @@
 			<p class="text-center text-white">The company is dedicated to combining all the best in local architectural history with the very latest in modern amenities. The AILE product typically has a traditional exterior design with an impressive high level specification and meticulous attention to every detail.</p>
 		</div>
 	</div>
+</div>
+
+	<br/>
+	<br/>
+	<div class="hr"></div>
 </section>
 
-<section style="border-bottom:2px solid gold; padding:10px 0">
+<section>
 	<div class="container">
 		<div class="row">
 			<div class="col">
@@ -23,6 +28,11 @@
 				<br/>
 		</div>
 	</div>
+</div>
+
+	<br/>
+	<br/>
+	<div class="hr"></div>
 </section>
 
 <section style="background-color:#000">
@@ -30,8 +40,8 @@
 		<div class="row">
 			<div class="col">
 			<br/><br/>
-			<h2 class="text-white">Behind The Scenes</h2>
-			<p class="text-white">Follow us on Instagam - <a href="https://instagram.com/ailehomes" target="_blank">@AileHomes</a> and Facebook - <a href="https://facebook.com/ailehomes" target="_blank">/AileHomes</a> for more Behind the scenes content and see how our developments come together
+			<h2 class="text-center text-white">Behind The Scenes</h2>
+			<p class="text-center text-white">Follow us on Instagam - <a href="https://instagram.com/ailehomes" target="_blank">@AileHomes</a> and Facebook - <a href="https://facebook.com/ailehomes" target="_blank">/AileHomes</a> for more Behind the scenes content and see how our developments come together
 		</div>
 		<div class="row">
 			<?php

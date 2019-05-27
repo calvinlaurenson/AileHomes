@@ -43,7 +43,6 @@
 					<p class="text-right text-white">5+ schools within 5km <i class="fas fa-graduation-cap"></i></p>
 				</div>
 			</div>
-			<br/>
 		</div>
 	</div>
 </section>
@@ -65,7 +64,7 @@
 					<div class="card-body">
 	    				<span class="card-text">
 							<h3 class="text-dark">Forge Court</h3>
-							<p class="text-dark">3 bedroom detached bungalow.</p>
+							<p class="text-dark" style="min-height:129px">3 bedroom detached bungalow.</p>
 							<p><a href="<?php echo base_url() ?>Developments/property/charing_heath/barn"><button class="btn">Find out more</button></a></p>
 						</span>
 					</div>
@@ -95,7 +94,7 @@
 					<div class="card-body">
 	    				<span class="card-text">
 							<h3 class="text-dark">The Manor House</h3>
-							<p class="text-dark">4 bedroom detached home with the addition of a car barn.</p>
+							<p class="text-dark" style="min-height:129px">4 bedroom detached home with the addition of a car barn.</p>
 							<p><a href="<?php echo base_url() ?>Developments/property/charing_heath/barn"><button class="btn">Find out more</button></a></p>
 						</span>
 					</div>
@@ -121,11 +120,11 @@
 
 			<div class="col">
 				<div class="card">
-					<img src="<?php echo base_url() ?>images/charing_heath/external/p3_men_1.jpg" class="card-img-top">
+					<img src="<?php echo base_url() ?>images/charing_heath/external/P3_men_1_1.png" class="card-img-top">
 					<div class="card-body">
 	    				<span class="card-text">
 							<h3 class="text-dark">The Cottage</h3>
-							<p class="text-dark">4 bedroom detached home with the addition of a car barn.</p>
+							<p class="text-dark" style="min-height:129px">4 bedroom detached home with the addition of a car barn.</p>
 							<p class="text-dark"><a href="<?php echo base_url() ?>Developments/property/charing_heath/barn"><button class="btn">Find out more</button></a></p>
 						</span>
 					</div>
@@ -155,7 +154,7 @@
 					<div class="card-body">
 	    				<span class="card-text">
 							<h3 class="text-dark">Forge Barn</h3>
-							<p class="text-dark">4 bedroom detached home with the addition of a car barn.</p>
+							<p class="text-dark" style="min-height:129px">4 bedroom detached home with the addition of a car barn.</p>
 							<p class="text-dark"><a href="<?php echo base_url() ?>Developments/property/charing_heath/barn"><button class="btn">Find out more</button></a></p>
 						</span>
 					</div>

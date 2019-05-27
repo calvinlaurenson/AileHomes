@@ -65,7 +65,7 @@ p {
   /* The image used */
 
   /* Full height */
-  height: 95%; 
+  height: 100%; 
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -187,7 +187,10 @@ p {
 	font-weight: bold;
 	float: right;
 	width: 100%;
+}
 
+.btn:hover {
+	color: #fff;
 }
 
 
@@ -369,4 +372,14 @@ p {
 	display: inline-block;
 	text-align: center;
 	margin: auto;
+}
+
+.hr {
+	border-bottom:thin solid gold;
+	width: 90%;
+	margin-left: 5%;
+}
+
+.card {
+	min-height: 488px;
 }

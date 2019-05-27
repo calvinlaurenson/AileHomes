@@ -8,9 +8,13 @@
 		</div>
 	</div>
 </div>
+
+	<br/>
+	<br/>
+	<div class="hr"></div>
+
 </section>
 
-<hr style="border: 1px solid #fff">
 
 <section>
 	<div class="container">

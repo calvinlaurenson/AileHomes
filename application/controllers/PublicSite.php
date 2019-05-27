@@ -31,6 +31,7 @@ class PublicSite extends CI_Controller {
 		$this->load->view('include/header');
 		$this->load->view('index');
 		$this->load->view('include/bottom');
+		$this->load->view('include/footer');
 	}
 
 	function getInstagramFeeds($limit = 1){

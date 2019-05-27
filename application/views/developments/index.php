@@ -33,6 +33,24 @@
 			
 		</div>
 
+		<div class="col-md-4">
+			<br/>
+			<div class="card">
+				<div style="height:250px">
+				<img src="<?php echo base_url() ?>images/comingsoon.png" class="card-img-top" style="height:100%">
+				</div>
+				<div class="card-body"  style="float:left">
+    				<span class="card-text">
+						<h3 class="text-dark">Coming Soon</h3>
+						<p class="text-dark">Aile Homes next project is already in development and will be announced in the autumn of 2019. Make sure you're following our social media for the latest</p>
+						<p></p>
+					</span>
+				</div>
+			</div>
+
+			
+		</div>
+
 	</div>
 
 	<br/>

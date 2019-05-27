@@ -25,7 +25,7 @@ class Company extends CI_Controller {
    
 	public function index()
 	{
-		$data['feed'] = $this->getInstagramFeeds(18);
+		$data['data']['feed'] = $this->getInstagramFeeds(18);
 
 		$this->load->view('include/header');
 		$this->load->view('include/menu');
