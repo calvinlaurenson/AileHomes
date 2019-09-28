@@ -25,20 +25,20 @@ class Company extends CI_Controller {
    
 	public function index()
 	{
-		$data['data']['feed'] = $this->getInstagramFeeds(18);
+		//$data['data']['feed'] = $this->getInstagramFeeds(18);
 
 		$this->load->view('include/header');
 		$this->load->view('include/menu');
-		$this->load->view('company/index', $data);
+		$this->load->view('company/index');
 		$data['feed'] = null;
-		$this->load->view("include/contact_form_non_specific", $data);
+		$this->load->view("include/contact_form_non_specific");
 		$this->load->view('include/footer');
 		$this->load->view('include/bottom');
 	}
 
 	public function contact()
 	{
-		$data['feed'] = $this->getInstagramFeeds(6);
+		//$data['feed'] = $this->getInstagramFeeds(6);
 
 		$this->load->view('include/header');
 		$this->load->view('include/menu');

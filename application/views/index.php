@@ -26,8 +26,16 @@ font-family: 'Open Sans', sans-serif;
 	}
 }
 </style>
-
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
 <div class="bg">
+	<div style="float:right;margin-right: 20px; margin-top:20px">
+		<ul>
+			<li style="display:inline-block; padding: 5px 10px;"><a data-scroll href="#developments" style="color:#fff!important">AILE Developments</a></li>
+			<li style="display:inline-block; padding: 5 px 10px;"><a data-scroll href="#land" style="color:#fff!important">AILE Land</a></li>
+		</ul>
+	</div>
 	<img src="<?php echo base_url() ?>images/ogo.webp" class="homeImg">
 </div>
 
@@ -43,7 +51,7 @@ font-family: 'Open Sans', sans-serif;
 	</div>
 </div>
 
-<div class="row">
+<div class="row" id="developments">
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style='overflow:hidden'>
 		<img src="<?php echo base_url() ?>images/barn.png" style='overflow:hidden;width:100%'>
 	</div>
@@ -61,7 +69,7 @@ font-family: 'Open Sans', sans-serif;
 	<div class="hr"></div>
 </div>
 
-<div class="row">
+<div class="row" id="land">
 	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 		<div style="padding:20px 10px">
 			<div class="box">
@@ -78,4 +86,3 @@ font-family: 'Open Sans', sans-serif;
 
 	<div class="hr"></div>
 </div>
-

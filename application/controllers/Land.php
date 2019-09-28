@@ -29,8 +29,8 @@ class Land extends CI_Controller {
 		$this->load->view('include/header');
 		$this->load->view('include/menu');
 		$this->load->view('land/index');
-		$data['feed'] = $this->getInstagramFeeds(6);
-		$this->load->view("include/contact_form_non_specific", $data);
+		//$data['feed'] = $this->getInstagramFeeds(6);
+		$this->load->view("include/contact_form_non_specific");
 		$this->load->view('include/footer');
 		$this->load->view('include/bottom');
 	}

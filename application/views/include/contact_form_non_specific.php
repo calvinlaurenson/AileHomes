@@ -27,6 +27,6 @@
 
 <section>
 	<div class="container">
-		<?php $this->load->view("include/instagram") ?>
+		<?php //$this->load->view("include/instagram") ?>
 	</div>
 </section>
